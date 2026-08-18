@@ -2485,8 +2485,8 @@ LoadStarHubConfig()
 
 local redzlib = RedzlibAdapter
 local Window = redzlib:MakeWindow({
-    Title = "STAR HUB : Blox Fruit",
-    SubTitle = "by STAR HUB Team",
+    Title = "GHOST HUB : Blox Fruit",
+    SubTitle = "Domine o Blox Fruits com estilo, velocidade e precisão.",
     SaveFolder = "StarHub_Config.json"
 })
 
@@ -2494,10 +2494,6 @@ local Minimizer = Window:NewMinimizer({
   KeyCode = Enum.KeyCode.LeftControl
 })
 
-local MobileButton = Minimizer:CreateMobileMinimizer({
-  Image = "rbxassetid://127632820302449",
-  BackgroundColor3 = Color3.fromRGB(0, 255, 254)
-})
 
 local Tabs = {
     Info = Window:MakeTab({ Title = "Tab Info And Status", Icon = "Info" }),
