@@ -1512,8 +1512,8 @@ end
 local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tranvanhung040419826-ui/Charcoal-UI/refs/heads/main/8469605765224156.lua.txt"))()
 
 local Window = redzlib:MakeWindow({
-    Title = "Vantablack X Hub : Blox Fruit",
-    SubTitle = "By lương Thái ",
+    Title = "GHOST HUB : Blox Fruit",
+    SubTitle = "Domine o Blox Fruits com estilo, velocidade e precisão.",
     SaveFolder = "VantablackX.json"
 })
 
@@ -1665,16 +1665,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/tranduykhanh08428-web
 })
 
 Tabs.Info:AddSection("Information")
-
-Tabs.Info:AddDiscordInvite({
-    Title = "Vantablack Hub | Free",
-    Description = "Vantablack Hub | Miễn Phí",
-    Banner = "rbxassetid://127729348105692", 
-    Logo = "rbxassetid://127729348105692",
-    Invite = "https://discord.gg/v2e8ZB6uk",
-    Members = 1000000, 
-    Online = 1000000, 
-})
 
 Tabs.Info:AddSection("Status Server")
 
